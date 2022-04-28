@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BA27E0849AA4983FA218330 /* Pods_PhotoSharingWithParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF34DC02F54031C76D5B10C0 /* Pods_PhotoSharingWithParse.framework */; };
+		715F38332812F007004E76C9 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715F38322812F007004E76C9 /* FeedTableViewCell.swift */; };
+		715F38352812F28C004E76C9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715F38342812F28C004E76C9 /* Post.swift */; };
 		716200A6280E742700906910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716200A5280E742700906910 /* AppDelegate.swift */; };
 		716200A8280E742700906910 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716200A7280E742700906910 /* SceneDelegate.swift */; };
 		716200AA280E742700906910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716200A9280E742700906910 /* ViewController.swift */; };
 		716200AD280E742700906910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716200AB280E742700906910 /* Main.storyboard */; };
 		716200AF280E742900906910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716200AE280E742900906910 /* Assets.xcassets */; };
 		716200B2280E742900906910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716200B0280E742900906910 /* LaunchScreen.storyboard */; };
+		7179F5EA2810076C0022B3EA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179F5E92810076C0022B3EA /* FeedViewController.swift */; };
+		7179F5EC281007830022B3EA /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179F5EB281007830022B3EA /* UploadViewController.swift */; };
+		7179F5EE28114E550022B3EA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179F5ED28114E550022B3EA /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EFD6A60A84732D86F4EB47E /* Pods-PhotoSharingWithParse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoSharingWithParse.debug.xcconfig"; path = "Target Support Files/Pods-PhotoSharingWithParse/Pods-PhotoSharingWithParse.debug.xcconfig"; sourceTree = "<group>"; };
+		715F38322812F007004E76C9 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		715F38342812F28C004E76C9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		716200A2280E742700906910 /* PhotoSharingWithParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSharingWithParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716200A5280E742700906910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		716200A7280E742700906910 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		716200AE280E742900906910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		716200B1280E742900906910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716200B3280E742900906910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7179F5E92810076C0022B3EA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		7179F5EB281007830022B3EA /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		7179F5ED28114E550022B3EA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BF34DC02F54031C76D5B10C0 /* Pods_PhotoSharingWithParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoSharingWithParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8384EAA705D55145730B7F /* Pods-PhotoSharingWithParse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoSharingWithParse.release.xcconfig"; path = "Target Support Files/Pods-PhotoSharingWithParse/Pods-PhotoSharingWithParse.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA27E0849AA4983FA218330 /* Pods_PhotoSharingWithParse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		456EF90A1709C94B3030466F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF34DC02F54031C76D5B10C0 /* Pods_PhotoSharingWithParse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C475EAAD54DE8265ABC1607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EFD6A60A84732D86F4EB47E /* Pods-PhotoSharingWithParse.debug.xcconfig */,
+				FC8384EAA705D55145730B7F /* Pods-PhotoSharingWithParse.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		71620099280E742700906910 = {
 			isa = PBXGroup;
 			children = (
 				716200A4280E742700906910 /* PhotoSharingWithParse */,
 				716200A3280E742700906910 /* Products */,
+				6C475EAAD54DE8265ABC1607 /* Pods */,
+				456EF90A1709C94B3030466F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +92,12 @@
 			children = (
 				716200A5280E742700906910 /* AppDelegate.swift */,
 				716200A7280E742700906910 /* SceneDelegate.swift */,
+				715F38322812F007004E76C9 /* FeedTableViewCell.swift */,
+				7179F5E92810076C0022B3EA /* FeedViewController.swift */,
+				7179F5EB281007830022B3EA /* UploadViewController.swift */,
+				7179F5ED28114E550022B3EA /* SettingsViewController.swift */,
 				716200A9280E742700906910 /* ViewController.swift */,
+				715F38342812F28C004E76C9 /* Post.swift */,
 				716200AB280E742700906910 /* Main.storyboard */,
 				716200AE280E742900906910 /* Assets.xcassets */,
 				716200B0280E742900906910 /* LaunchScreen.storyboard */,
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 716200B6280E742900906910 /* Build configuration list for PBXNativeTarget "PhotoSharingWithParse" */;
 			buildPhases = (
+				AA9DEAACC6AAC6CCB258EDCD /* [CP] Check Pods Manifest.lock */,
 				7162009E280E742700906910 /* Sources */,
 				7162009F280E742700906910 /* Frameworks */,
 				716200A0280E742700906910 /* Resources */,
+				1E3E67592798403859AE8B83 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +174,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E3E67592798403859AE8B83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoSharingWithParse/Pods-PhotoSharingWithParse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoSharingWithParse/Pods-PhotoSharingWithParse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoSharingWithParse/Pods-PhotoSharingWithParse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA9DEAACC6AAC6CCB258EDCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoSharingWithParse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7162009E280E742700906910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				716200AA280E742700906910 /* ViewController.swift in Sources */,
+				7179F5EC281007830022B3EA /* UploadViewController.swift in Sources */,
+				715F38332812F007004E76C9 /* FeedTableViewCell.swift in Sources */,
+				715F38352812F28C004E76C9 /* Post.swift in Sources */,
 				716200A6280E742700906910 /* AppDelegate.swift in Sources */,
+				7179F5EA2810076C0022B3EA /* FeedViewController.swift in Sources */,
 				716200A8280E742700906910 /* SceneDelegate.swift in Sources */,
+				7179F5EE28114E550022B3EA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +370,7 @@
 		};
 		716200B7280E742900906910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFD6A60A84732D86F4EB47E /* Pods-PhotoSharingWithParse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +399,7 @@
 		};
 		716200B8280E742900906910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8384EAA705D55145730B7F /* Pods-PhotoSharingWithParse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
